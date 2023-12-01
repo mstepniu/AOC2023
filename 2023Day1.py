@@ -1,3 +1,4 @@
+# https://adventofcode.com/2023/day/1
 with open("2023Day1.txt", 'r') as file:
     data = file.read().strip().split()
 

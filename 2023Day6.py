@@ -50,4 +50,17 @@ for t in range(racetimes):
     if speed > records:
         totals += 1
 
-print(totals)
+print("Brute: ", totals)
+
+# quadratic
+def part2q():
+    time = racetimes
+    distance = records
+
+    b1 = math.floor((time + math.sqrt(pow(time, 2) - 4 * distance))/2)
+    b2 = math.ceil((time - math.sqrt(pow(time, 2) - 4 * distance))/2)
+
+    print("Quadratic: ", b1 - b2 + 1)
+
+part2q()
+

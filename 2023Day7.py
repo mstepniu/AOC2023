@@ -1,4 +1,4 @@
-# https://adventofcode.com/2023/day/6
+# https://adventofcode.com/2023/day/7
 # *********** NEED TO CLEAN UP *****************
 
 
